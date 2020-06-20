@@ -1,0 +1,10 @@
+El problema de este programa es que el hijo no recibe el mensaje, por lo que el padre se bloquea indefinidamente
+
+La solucion seria hacer un codigo para que el hijo lea de la fifo.
+
+Ejemplo:
+
+			fifo_d = open(FIFO_PATH, O_RDONLY, 0);
+			leido = read(fifo_d, buff, sizeof(buff));
+			write(0, buff, leido);
+

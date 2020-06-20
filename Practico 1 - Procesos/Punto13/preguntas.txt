@@ -1,0 +1,2 @@
+Lo que se hace es guardar lo que se mostraria en pantalla con ls en el archivo stdout.
+Luego con cat se extrae lo que esta en el archivo y se muestra por pantalla.

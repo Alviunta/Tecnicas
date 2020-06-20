@@ -1,0 +1,3 @@
+Por consola solo se muestra lo que se imprime en la salida estandar.
+El archivo err.txt contiene el mensaje que salio en la salida de error.
+El operador 2> modifica el destino de la salida estandar de error

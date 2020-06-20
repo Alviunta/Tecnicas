@@ -1,0 +1,1 @@
+En consola se muestra el codigo de error, esto sucede porque en la ruta especificada no hay ningun programa llamado ls, por lo que el mismo no puede ejecutarse.

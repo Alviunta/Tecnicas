@@ -1,0 +1,9 @@
+Puede usar los comandos ls y grep.
+El comando grep sirve para buscar, y se puede acompañar de distintos atributos.
+$ grep "palabra a buscar" "archivo1.txt" "archivo2.txt"
+$ grep danger *.*	//Busca en todos los archivos
+$ grep -r "palabra" /home/usuario //busca en subdirectorios
+
+Ademas puede ser combinado con otros comandos, de modo que si escribimos
+ls | grep "palabra" buscamos dentro de lo que devuelve ls la palabra
+

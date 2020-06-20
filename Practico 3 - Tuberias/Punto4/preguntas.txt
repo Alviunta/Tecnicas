@@ -1,0 +1,2 @@
+El programa cierra el extremo de lectura antes de crear el hijo, por lo que nunca puede darse el ipc.
+Para solucionarlo propongo cerrar el extremo de lectura en el proceso padre luego de haber creado el hijo.
