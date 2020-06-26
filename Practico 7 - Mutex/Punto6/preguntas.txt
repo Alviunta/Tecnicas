@@ -1,0 +1,2 @@
+El objetivo del programa es el mismo que en casos anteriores, de modificar correctamente un recurso compartido por varios hilos.
+La diferencia es que aqui se hace uso de mutex dinamicos, que se crean y se destruyen permitiendo liberar memoria.

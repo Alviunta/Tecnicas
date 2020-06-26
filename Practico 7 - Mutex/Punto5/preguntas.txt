@@ -1,0 +1,2 @@
+El problema se conoce como interbloqueo, es decir que los procesos se bloquean entre si y no podran desbloquear al los otros.
+Una solucion podria ser mantener el orden de los bloqueos, bloqueando siempre por ejemplo mtx y luego mtx1, de esta forma se evitaria estos interbloqueos

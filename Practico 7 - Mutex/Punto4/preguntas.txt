@@ -1,0 +1,3 @@
+Ahora se implementa algo similar solo que el codigoq que ejecutan los hilos es distinto.
+En uno de ellos se trata la exclusion mutua correctamente pero en el otro no, dando lugar a errores.
+El problema se solucionaria si se corrigiera la exclusion mutua en el hilo donde no se la utiliza.
