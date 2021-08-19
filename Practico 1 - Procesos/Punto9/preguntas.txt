@@ -1,1 +1,0 @@
-Ahora el proceso padre no termina hasta que el proceso hijo lo hace, por lo que nunca queda huerfano y se cierran ambos cuando termina el sleep en el hijo.

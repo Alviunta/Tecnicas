@@ -1,5 +1,0 @@
-La idea del programa es que se utilicen hilos para incrementar una variable hasta un valor de 100, cada hilo aumenta en 1 la variable.
-El programa da valores muy erroneos cuando se le pone el delay (el resultado es de al rededor de 10)
-El programa da valores erroneos pero mas ceracnos cuando se quita el delay pero se pone yield (resultado de al rededor de 95)
-El programa funciona aceptablemente bien cuando se quita el delay y el yield.
-El problema aqui es de sincronizacion del uso de recursos compartidos

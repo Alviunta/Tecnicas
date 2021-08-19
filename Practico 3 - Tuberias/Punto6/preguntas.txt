@@ -1,9 +1,0 @@
-El comando ls lista los archivos en el directorio /.
-
-El comando head elige mostrar solo las 3 lineas iniciales.
-
-El comando tail elige mostrar la ultima linea (la tercera).
-
-El comando > indica que la salida se guarde en el archivo y no se muestre por pantalla
-
-El comando cat extrae lo que esta en el archivo y lo muestra por pantalla 

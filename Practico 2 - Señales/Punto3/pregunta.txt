@@ -1,1 +1,0 @@
-La señal SIGKILL no puede ser ignorada, por lo que el programa termina de igual forma.

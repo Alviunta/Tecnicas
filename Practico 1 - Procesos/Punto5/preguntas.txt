@@ -1,1 +1,0 @@
-La variable no retorna a su valor original porque al hacer fork() y crear otro proceso los espacios de memoria no se comparten, por lo que aunque tengan el mismo nombre ambos procesos modifican dos variables distintas.

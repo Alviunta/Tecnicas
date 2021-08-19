@@ -1,2 +1,0 @@
-Lo que sucede en el programa es que un semaforo inicializado en 0 es incrementado por un hilo y decrementado por otro.
-Si la cantidad de veces que es incrementado es mayor a la de decrementado, el proceso termina correctamente, sino, el hilo que decrementa se quedara bloqueado indefinidamente porque no habra nadie que lo desbloquee.

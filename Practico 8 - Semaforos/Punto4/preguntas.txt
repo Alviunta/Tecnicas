@@ -1,1 +1,0 @@
-La forma mas sencilla de colocar mas de un productor es hacer una exclusion mutua entre los mismos, a travez de un mutex por ejemplo, de modo que primero produzca uno y luego el otro.

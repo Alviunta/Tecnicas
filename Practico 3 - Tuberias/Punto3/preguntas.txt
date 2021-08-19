@@ -1,2 +1,0 @@
-El problema de este programa y de las tuberias en general es que no se puede saber de que proceso hijo viene el mensaje cuando hay mas de un posible escritor.
-Para solucionarlo podrian abrirse tuberias separadas para ambos hijos, o utilizar algun identificador de remitente al enviar el mensaje. 

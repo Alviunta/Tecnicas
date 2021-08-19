@@ -1,3 +1,0 @@
-Se deberia ver por consola el mensaje de saludo de cada hilo, sin embargo el numero de hilo es inconrrecto
-El printf de la linea 39 no se ejecuta porque esta despues del cierre del proceso.
-Se modifica el comportamiento del proceso porque se van guardando los valores historicos en un arreglo de 5 elementos que no es modificado.

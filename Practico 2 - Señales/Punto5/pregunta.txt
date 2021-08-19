@@ -1,1 +1,0 @@
-El programa se cierra de todos modos, ignorando el manejador, esto es debido a que la señal SIGKILL no puede ser manejada.

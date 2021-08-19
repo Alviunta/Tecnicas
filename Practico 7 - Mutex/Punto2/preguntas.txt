@@ -1,2 +1,0 @@
-El valor de la variable global deberia incrementarse en 100000 por cada hilo, pero en su lugar varia segun la ejecucion.
-Lo que esta pasando es que no se esta haciendo exclusion mutua al momento de modificar la variable global.

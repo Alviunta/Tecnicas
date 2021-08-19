@@ -1,3 +1,0 @@
-En este caso se crean dos hilos ademas del hilo main. El hilo 1 ademas de mostrar un cartel que diga que es el hilo 1 espera a que termine el hilo 0 con la función join. A su vez el hilo main espera a que termine el hilo1. Por lo tanto hasta que no termine el hilo 0 no terminara el hilo 1 ni el hilo main.
-Cuando se descomenta la linea 14 el hilo 0 se hace no unible, por lo que el join del hilo 1 es ignorado y no se esperan los 2 segundos.
-Cuando se hace terminar al main con exit, este no espera la finalizacion de los otros hilos y puede terminar antes, haciendo que los otros hilos no completen el trabajo ya que se termina el proceso.

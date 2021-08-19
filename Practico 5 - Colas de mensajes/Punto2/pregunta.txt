@@ -1,2 +1,0 @@
-El objetivo del programa es enviar mensajes a una cola, lo cual ocurre con exito.
-El problema es que no hay nadie que lea los mensajes, por lo que la cola se llena y el proceso se bloquea indefinidamente hasta que le enviamos la señal de que termine. 

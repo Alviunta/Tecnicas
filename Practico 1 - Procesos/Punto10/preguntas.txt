@@ -1,2 +1,0 @@
-El proceso hijo queda huerfano, por lo que es adoptado por un proceso de jerarquia superior.
-El proceso hijo puede terminar presionando Ctrl+C o enviendo una SIGKILL

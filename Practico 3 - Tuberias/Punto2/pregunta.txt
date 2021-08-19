@@ -1,9 +1,0 @@
-El error esta en el proceso hijo, puesto que el codigo:
-		case 0:
-			close(ipc[1]);
-			strncpy(buff, DATA, sizeof(DATA)); 
-			write(ipc[1], buff, sizeof(DATA));
-			exit(0);
-Aqui se cierra el extremo de escritura antes de escribir.
-
-Como error adicional (aunque el programa funcionaria igual), el padre nunca cierra su extremo de escritura, por lo que se estaria enviando mensajes a si mismo.
