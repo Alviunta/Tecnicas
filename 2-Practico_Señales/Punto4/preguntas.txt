@@ -1,0 +1,2 @@
+Apretar ctrl+z es mandar la señal SIGTSTP por lo que es ignorada.
+Apretar ctrl+c termina el programa inmediatamente.

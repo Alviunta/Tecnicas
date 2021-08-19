@@ -1,0 +1,7 @@
+El proceso hijo se queda esperando que alguien habra el extremo de escritura y le envie un mensaje, cosa que deberia hacer el padre para establecer la comunicacion.
+Para solucionarlo el padre debe abrir el extremo de escritura y enviar un mensaje
+
+Ejemplo:
+			fifo_d = open(FIFO_PATH, O_WRONLY,0);
+			write(fifo_d, "ENVIO DE MENSAJE", sizeof("ENVIO DE MENSAJE"));		
+

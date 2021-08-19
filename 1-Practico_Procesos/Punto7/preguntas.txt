@@ -1,0 +1,1 @@
+Son creados 8 hijos, esto es porque el valor de i se hereda al hacer el fork() por lo tanto los hijos seguiran dentro del bucle while y seguiran creando hijos hasta que puedan salir del bucle.

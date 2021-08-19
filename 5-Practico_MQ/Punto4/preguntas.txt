@@ -1,0 +1,2 @@
+Al ejecutar los programas con las colas como no bloqueantes, en ambos casos se muestra un mensaje de error dado que se llena la cola de mensajes o no hay mas mensajes para leer, haciendo que el proceso termine.
+Si bien podria ser que funcione bien al lograr abrir ambos procesos a la vez, esto es medio azaroso ya que se pierde el sincronismo entre los procesos y lo mas probable es que terminen cerrandose.

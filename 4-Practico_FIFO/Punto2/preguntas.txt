@@ -1,0 +1,2 @@
+Al abrir la fifo como no bloqueante, el proceso hijo y el padre se "desincronizan" por lo que a veces el hijo recive el mensaje y a veces no, dependiendo de si ya lo envio el padre.
+Al abrir la fifo como lectura escritura, los procesos tambien se desincronizan, por lo que sucede algo similar al caso anterior

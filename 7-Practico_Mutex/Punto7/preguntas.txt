@@ -1,0 +1,3 @@
+El problema productor consumidor consta de dos hilos, uno que produce datos y otro los procesa, el paso de los datos se hace a travez de un buffer de tamaño finito.
+El problema radica en sincronizar y lograr que ambos hilos trabajen al mismo tiempo, de modo que cuando el consumidor coloque un dato el consumidor vaya procesandolo.
+El problema de usar mutex es que el sincronismo se da cuando el buffer se llena, no cuando se coloca un dato, por lo que el consumidor debe esperar a que el buffer se llene y el productor a que se vacie, siempre por completo.

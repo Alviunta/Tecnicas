@@ -1,0 +1,3 @@
+Cuando el programa recibe la señal SIGUSR1 cierra la cola y finaliza
+Cuando el programa recibe la señal SIGINT coloca un mensaje en la cola.
+Cuando el programa escribe mas de 5 mensajes queda en estado bloqueado esperando a tener lugar en la cola de mensajes (lo que nunca sucede porque nadie esta leyendo de la cola)

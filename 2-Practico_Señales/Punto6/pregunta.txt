@@ -1,0 +1,1 @@
+El programa hace uso del manejador para la señal como estaba previsto.

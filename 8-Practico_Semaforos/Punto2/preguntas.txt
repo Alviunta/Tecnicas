@@ -1,0 +1,2 @@
+El objetivo del programa es modificar variables compartidas.
+El problema es que no se esta usando un sistemad de sincronizacion, por lo que el resultado mostrado es erroneo

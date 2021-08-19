@@ -1,0 +1,1 @@
+Las direcciones de memoria de X (&X) son las mismas dado que son direcciones de memoria dentro del segmento del proceso, y cuando se realiza fork() se duplica el mismo. Por lo tanto para ambos procesos la variable x esta en el mismo lugar dentro de su segmento de memoria.

@@ -1,0 +1,2 @@
+Dado que el proceso padre termina antes de que el hijo lo haga, el proceso hijo queda como huerfano y es adoptado por un proceso de jerarquia superior.
+Cuando el sleep termina, el proceso hijo se cierra.

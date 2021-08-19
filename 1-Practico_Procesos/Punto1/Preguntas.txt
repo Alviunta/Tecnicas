@@ -1,0 +1,3 @@
+El PID es el numero que identifica al proceso
+El PID del padre es diferente al del Hijo
+

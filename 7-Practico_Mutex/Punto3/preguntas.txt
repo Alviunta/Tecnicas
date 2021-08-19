@@ -1,0 +1,1 @@
+El objetivo del programa es el mismo que el anterior, solo que ahora se considera la exclusion mutua y funciona bien.

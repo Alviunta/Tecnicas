@@ -1,0 +1,1 @@
+Se observa que la fifo fue cerrada al terminar la ejecusion 
